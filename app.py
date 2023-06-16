@@ -67,8 +67,8 @@ def upload():
     file.save(file_path)
 
     # Run the data extraction script
-    pdf_path = r'"C:\Users\Timi Laja\Downloads\Sample Files.pdf'
-    csv_path = r'C:\Users\Timi Laja\Downloads\Sample Files\sample2.csv'
+    pdf_path = r'"C:\Users\Timi Laja\Documents\Sample Files.pdf'
+    csv_path = r'C:\Users\Timi Laja\Documents\Sample Files\sample2.csv'
     extracted_data = extract_key_value_pairs(pdf_path)
 
     # Save extracted data to CSV
